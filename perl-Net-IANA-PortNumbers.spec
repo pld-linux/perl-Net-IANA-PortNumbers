@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	IANA-PortNumbers
+%define		pdir	Net
+%define		pnam	IANA-PortNumbers
 Summary:	Net::IANA::PortNumbers - translate ports to services and vice versa
 Summary(pl):	Net::IANA::PortNumbers - t³umaczenie portów na us³ugi i na odwrót
 Name:		perl-Net-IANA-PortNumbers
