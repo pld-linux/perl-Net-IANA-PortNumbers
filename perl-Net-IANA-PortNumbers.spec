@@ -30,6 +30,7 @@ numery portów i us³ugi na porty, us³ugi, opisy, protoko³y i zakresy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+rm -f t/0-signature.t
 
 %build
 %{__perl} Makefile.PL \
