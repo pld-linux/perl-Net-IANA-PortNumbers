@@ -10,7 +10,7 @@ Summary(pl):	Net::IANA::PortNumbers - t³umaczenie portów na us³ugi i na odwrót
 Name:		perl-Net-IANA-PortNumbers
 Version:	1.16
 Release:	1
-License:	GPLv2
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	056000346da9c0c4352f6bff7e506034
