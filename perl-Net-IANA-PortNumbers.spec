@@ -6,6 +6,7 @@
 %define	pdir	Net
 %define	pnam	IANA-PortNumbers
 Summary:	Net::IANA::PortNumbers - translate ports to services and vice versa
+Summary(pl):	Net::IANA::PortNumbers - t³umaczenie portów na us³ugi i na odwrót
 Name:		perl-Net-IANA-PortNumbers
 Version:	1.16
 Release:	1
@@ -19,8 +20,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is package contains Net::IANA::PortNumbers perl module, which translates
-port numbers and services to ports, services, descriptions, protocols, and ranges.
+This package contains Net::IANA::PortNumbers Perl module, which
+translates port numbers and services to ports, services, descriptions,
+protocols, and ranges.
+
+%description -l pl
+Ten pakiet zawiera modu³ Perla Net::IANA::PortNumbers t³umacz±cy
+numery portów i us³ugi na porty, us³ugi, opisy, protoko³y i zakresy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -45,6 +51,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+# the only user of Net/IANA for now
+%dir %{perl_vendorlib}/Net/IANA
 %{perl_vendorlib}/Net/IANA/*.pm
 %{perl_vendorlib}/Net/IANA/*.pod
 %{_mandir}/man3/*
