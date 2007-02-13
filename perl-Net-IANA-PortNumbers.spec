@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	IANA-PortNumbers
 Summary:	Net::IANA::PortNumbers - translate ports to services and vice versa
-Summary(pl.UTF-8):   Net::IANA::PortNumbers - tłumaczenie portów na usługi i na odwrót
+Summary(pl.UTF-8):	Net::IANA::PortNumbers - tłumaczenie portów na usługi i na odwrót
 Name:		perl-Net-IANA-PortNumbers
 Version:	1.16
 Release:	2
