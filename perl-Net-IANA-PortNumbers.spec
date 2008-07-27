@@ -9,7 +9,7 @@ Summary:	Net::IANA::PortNumbers - translate ports to services and vice versa
 Summary(pl.UTF-8):	Net::IANA::PortNumbers - tłumaczenie portów na usługi i na odwrót
 Name:		perl-Net-IANA-PortNumbers
 Version:	1.16
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
