@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Net
 %define		pnam	IANA-PortNumbers
+%include	/usr/lib/rpm/macros.perl
 Summary:	Net::IANA::PortNumbers - translate ports to services and vice versa
 Summary(pl.UTF-8):	Net::IANA::PortNumbers - tłumaczenie portów na usługi i na odwrót
 Name:		perl-Net-IANA-PortNumbers
@@ -14,6 +14,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	056000346da9c0c4352f6bff7e506034
+URL:		http://search.cpan.org/dist/Net-IANA-PortNumbers/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
