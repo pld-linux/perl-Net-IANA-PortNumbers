@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	IANA-PortNumbers
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::IANA::PortNumbers - translate ports to services and vice versa
 Summary(pl.UTF-8):	Net::IANA::PortNumbers - tłumaczenie portów na usługi i na odwrót
 Name:		perl-Net-IANA-PortNumbers
